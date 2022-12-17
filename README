@@ -1,0 +1,8 @@
+INSTRUCCIONES PARA CORRER EL TP
+Importar cada proyecto desde File System 
+Una vez importados los proyectos click derecho en ellos y Convert to C project como Executable(En el caso de shared-lib importar como Shared), Linux GCC, C Project 
+Una vez hecho esto, en las properties de la shared agregar en settings libraries las librerias pthread y commons(las de la catedra de so)
+Buildear la shared
+Agregar en las properties de los otros 4 proyectos en settings libraries las librerias pthread, commons y shared-lib. en el cuadrado de abajo poner la direccion de la carpeta Debug de la shared. En include en el cuadrado de arriba agregar la direccion de la carpeta src de la shared.
+Una vez hecho todo esto se puede levantar cada consola parandose en las carpetas de los proyectos y ejecutando los comandos de PRUEBAS.txt
+Orden para levantar los modulos: Memoria, Cpu, Kernel, consolas
