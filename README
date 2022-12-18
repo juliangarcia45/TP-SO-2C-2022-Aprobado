@@ -6,3 +6,4 @@ Buildear la shared
 Agregar en las properties de los otros 4 proyectos en settings libraries las librerias pthread, commons y shared-lib. en el cuadrado de abajo poner la direccion de la carpeta Debug de la shared. En include en el cuadrado de arriba agregar la direccion de la carpeta src de la shared.
 Una vez hecho todo esto se puede levantar cada consola parandose en las carpetas de los proyectos y ejecutando los comandos de PRUEBAS.txt
 Orden para levantar los modulos: Memoria, Cpu, Kernel, consolas
+CONSOLA SE LEVANTA CON 2 PATHS, PRIMERO INSTRUCCIONES Y DESPUES LA CONFIG, REVISAR LOS PATHS A LA HORA DE PROBARLO
